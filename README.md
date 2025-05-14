@@ -1,14 +1,14 @@
 # Girtabe-Bot
 Um bot do Discord feito com `discord.py` que utiliza PostgreSQL para persistência de dados.
 
-## 🚀 Requisitos
+## ✔ Requisitos
 
 - Python 3.10+ (Em uso: 3.12.7)
 - Discord.py: 2.5.2
 - PostgreSQL
 - Pip (gerenciador de pacotes)
 
-## 🔧 Instalação
+## 📦 Instalação
 
 1. Clone o repositório:
    ```bash
