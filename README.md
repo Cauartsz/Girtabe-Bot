@@ -15,16 +15,20 @@ Um bot do Discord feito com `discord.py` que utiliza PostgreSQL para persistênc
    cd seu-repositorio
 
 2. Crie e ative um ambiente virtual:
-   python -m venv .venv
+```bash
+python -m venv .venv
 source .venv/bin/activate  # Linux/macOS
 .venv\Scripts\activate     # Windows
 
-3. Instale as dependências:
+4. Instale as dependências:
+```bash
 pip install -r requirements.txt
 
-4. Crie o arquivo .env com:
+5. Crie o arquivo .env com:
+```bash
 DB_PASSWORD=sua_senha_do_postgres
 TOKEN=seu_token_discord
 
-5. Execute o bot:
+6. Execute o bot:
+```bash
 python bot.py
